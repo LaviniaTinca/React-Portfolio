@@ -53,8 +53,8 @@ const Contact = () => {
     <div className="contact ">
       <div
         style={{
-          width: 800,
-          height: 800,
+          width: "80%",
+          height: "80vh",
           position: "relative",
           overflow: "hidden",
         }}
