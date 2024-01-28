@@ -1,0 +1,28 @@
+@import "../../utils/scss/variables.scss";
+
+nav {
+  height: 100px;
+
+  .wrapper {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    span {
+      font-weight: bold;
+    }
+
+    .socials {
+      display: flex;
+      gap: 20px;
+
+      img {
+        height: 18px;
+        width: 18px;
+      }
+    }
+  }
+}

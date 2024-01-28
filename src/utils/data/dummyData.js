@@ -1,0 +1,67 @@
+export const items = [
+  {
+    id: 1,
+    title: "NFT Market",
+    images: [
+      "/projects/NFT/capture1.png",
+      "/projects/NFT/capture2.png",
+      "/projects/NFT/capture3.png",
+    ],
+    technologies: "React js, Scss",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    demo: "",
+    path: "https://lambent-fox-77811d.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "Agrikon App",
+    images: [
+      "/projects/agricon/agricon1.png",
+      "/projects/agricon/agricon2.png",
+      "/projects/agricon/agricon3.png",
+    ],
+    technologies: "React js, Scss",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    demo: "",
+    path: "",
+  },
+  {
+    id: 3,
+    title: "Quiz Grad",
+    images: [
+      "/projects/ddroidd/1.png",
+      "/projects/ddroidd/2.png",
+      "/projects/ddroidd/3.png",
+      "/projects/ddroidd/4.png",
+      "/projects/ddroidd/5.png",
+      "/projects/ddroidd/6.png",
+    ],
+    technologies: "React js, Tailwind & shadcn/ui",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    demo: "projects/ddroidd/demoDdroidd.gif",
+    path: "",
+  },
+  {
+    id: 4,
+    title: "Cantina App",
+    images: [
+      "/projects/cantina/cantina1.png",
+      "/projects/cantina/cantina2.png",
+      "/projects/cantina/cantina3.png",
+    ],
+    technologies: "Vanilla HTML, CSS, jQuery, My SQL, PHP & XAMPP server",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    demo: "",
+    path: "",
+  },
+  {
+    id: 5,
+    title: "Festivals PHP",
+    images: ["/projects/festivals/festivals1.png"],
+    technologies: "Tailwind CSS, MySql, PHP, Laravel, XAMPP server",
+
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
+    demo: "",
+    path: "",
+  },
+];
