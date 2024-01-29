@@ -21,7 +21,12 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/github.png" alt="social icon" />
+              <motion.img
+                src="/github.png"
+                alt="social icon"
+                whileHover={{ scale: 1.1 }}
+                transition={{ ease: "easeInOut", duration: 0.3 }}
+              />
             </a>
 
             <a
@@ -29,7 +34,12 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/linkedin.png" alt="social icon" />
+              <motion.img
+                src="/linkedin.png"
+                alt="social icon"
+                whileHover={{ scale: 1.1 }}
+                transition={{ ease: "easeInOut", duration: 0.3 }}
+              />
             </a>
           </div>
         </div>

@@ -117,7 +117,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 variants={textVariants}
               >
-                <img
+                <motion.img
                   src="/github.png"
                   alt="github icon"
                   style={{
@@ -126,6 +126,8 @@ const Contact = () => {
                     width: "auto",
                     height: "auto",
                   }}
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ ease: "easeInOut", duration: 0.3 }}
                 />
               </motion.a>
               <motion.a
@@ -134,7 +136,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 variants={textVariants}
               >
-                <img
+                <motion.img
                   src="/linkedin.png"
                   alt="linkedin icon"
                   style={{
@@ -143,6 +145,8 @@ const Contact = () => {
                     width: "auto",
                     height: "auto",
                   }}
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ ease: "easeInOut", duration: 0.3 }}
                 />
               </motion.a>
             </motion.div>

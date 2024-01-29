@@ -1,7 +1,10 @@
-@import "../../utils/scss/variables.scss";
+@import "../../app.scss";
 
 nav {
   height: 100px;
+  // @include laptop {
+  //   height: 50px;
+  // }
 
   .wrapper {
     max-width: 80%;
@@ -11,8 +14,17 @@ nav {
     justify-content: space-between;
     height: 100%;
 
+    @include laptop {
+      justify-content: flex-end;
+      padding: 20px;
+    }
+
     span {
       font-weight: bold;
+
+      @include laptop {
+        display: none;
+      }
     }
 
     .socials {
