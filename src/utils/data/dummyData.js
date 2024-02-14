@@ -25,7 +25,7 @@ export const items = [
       "/projects/ddroidd/6.png",
     ],
     technologies: "React js, Typescript, Tailwind & shadcn/ui",
-    desc: "QuizGrad app with Auth0 authentication, based on two roles admin and user, admin & user section",
+    desc: "QuizGrad app with Auth0 authentication, based on two roles, admin & user section.",
     demo: "projects/ddroidd/demoDdroidd.gif",
     path: "",
   },
