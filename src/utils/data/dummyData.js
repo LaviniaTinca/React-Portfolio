@@ -1,6 +1,19 @@
 export const items = [
   {
     id: 1,
+    title: "Github Like",
+    images: [
+      "/projects/github/1.png",
+      "/projects/github/home.png",
+      "/projects/github/Likes.png",
+    ],
+    technologies: "Mongo DB, Express js,React js, Tailwind, Node js",
+    desc: "Github Like App is a MERN project, uses Passport js for GitHub authentication.  The project is 'in progress'",
+    demo: "",
+    path: "https://github-like-app-a8cy.onrender.com/",
+  },
+  {
+    id: 2,
     title: "Agrikon App",
     images: [
       "/projects/agricon/agricon1.png",
@@ -54,7 +67,7 @@ export const items = [
   },
 
   {
-    id: 1,
+    id: 6,
     title: "NFT Market",
     images: [
       "/projects/NFT/capture1.png",
